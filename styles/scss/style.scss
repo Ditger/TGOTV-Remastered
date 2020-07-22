@@ -20,10 +20,10 @@ body {
 }
 
 .btn-custom {
-    background: $goldColor;
-    text-align: center;
-    margin: 0 auto 25px auto;
-    color: $whiteColor;
+  background: $goldColor;
+  text-align: center;
+  margin: 0 auto 25px auto;
+  color: $whiteColor;
 
   &:hover {
     color: $goldColor;
@@ -31,6 +31,21 @@ body {
     background-color: transparent;
   }
 }
+
+#intro {
+  padding: 100px 0;
+}
+
+#features {
+  padding: 50px 0;
+}
+
+.feature_list li {
+  list-style-type: none;
+  padding: 50px 0;
+  font-size: 1.5em;
+}
+
 /* Phone Templates - Modified from online template */
 
 /* IPHONE */
@@ -38,7 +53,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 .iphone, .iphone-section1 {
   box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0, 0, 0, 0.7);
@@ -57,6 +71,7 @@ body {
   position: relative;
 
 }
+
 .iphone-top .speaker {
   display: block;
   width: 70px;
@@ -65,6 +80,7 @@ body {
   border-radius: 6px;
   background: #292728;
 }
+
 .iphone-top .camera {
   display: block;
   margin: 0 auto;
@@ -74,6 +90,7 @@ body {
   margin-bottom: 13px;
   background: #333;
 }
+
 .iphone-top .sensor {
   display: block;
   width: 15px;
@@ -112,6 +129,7 @@ body {
   border-radius: 3px;
   overflow: hidden;
 }
+
 .iphone-screen img {
   width: 100%;
 }
@@ -122,23 +140,28 @@ body {
   position: absolute;
   border-radius: 2px 0px 0px 2px;
 }
+
 .buttons .on-off {
   height: 40px;
   width: 3px;
   top: 100px;
   left: -8px;
 }
+
 .buttons .up, .buttons .down, .buttons .sleep {
   height: 60px;
   width: 5px;
   left: -10px;
 }
+
 .buttons .up {
   top: 170px;
 }
+
 .buttons .down {
   top: 250px;
 }
+
 .buttons .sleep {
   left: auto;
   right: -10px;
@@ -149,6 +172,7 @@ body {
 .iphone-bottom {
   padding: 10px 0 0;
 }
+
 .iphone-bottom span {
   display: block;
   margin: 0 auto;
@@ -159,6 +183,7 @@ body {
   background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
   position: relative;
 }
+
 .iphone-bottom span:after {
   content: "";
   display: block;
@@ -171,13 +196,13 @@ body {
   top: 4px;
 }
 
-
 /* Android */
 .phone-container {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
+
 .android-phone {
   display: none;
   background-color: #181818;
@@ -191,6 +216,7 @@ body {
   width: 320px;
 
 }
+
 .android-phone:before {
   background: inherit;
   border-radius: 600px / 50px;
@@ -204,12 +230,14 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
 .android-phone .top-bar, .android-phone .bottom-bar {
   height: 3px;
   background-color: #181818;
   width: 100%;
   display: block;
 }
+
 .android-phone .top-bar {
   width: calc(100% - 8px);
   height: calc(100% - 18px);
@@ -219,6 +247,7 @@ body {
   border-radius: 20px;
   background-color: #181818;
 }
+
 .android-phone .top-bar:before {
   border-radius: 600px / 50px;
   background: inherit;
@@ -231,6 +260,7 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
 .android-phone .microphone {
   background-color: #292728;
   border-radius: 5px;
@@ -242,6 +272,7 @@ body {
   width: 100px;
   z-index: 3;
 }
+
 .android-phone .sleep {
   width: 3px;
   position: absolute;
@@ -251,6 +282,7 @@ body {
   background: inherit;
   border-radius: 0 2px 2px 0;
 }
+
 .android-phone .volume {
   width: 3px;
   position: absolute;
@@ -260,6 +292,7 @@ body {
   background: inherit;
   border-radius: 0 2px 2px 0;
 }
+
 .android-phone .camera-speaker {
   background-color: #3C3C3C;
   border-radius: 5px;
@@ -271,6 +304,7 @@ body {
   width: 100px;
   z-index: 3;
 }
+
 .android-phone .camera-speaker:before {
   background-color: #3C3C3C;
   border-radius: 100%;
@@ -283,6 +317,7 @@ body {
   width: 10px;
   z-index: 3;
 }
+
 .android-phone .camera-speaker:after {
   background-color: #3C3C3C;
   border-radius: 100%;
@@ -294,6 +329,7 @@ body {
   width: 30px;
   z-index: 3;
 }
+
 .android-phone .screen {
   background-color: #BFD7EA;
   background-size: 16px 16px;
@@ -313,6 +349,7 @@ body {
   color: #000;
   height: 83%;
 }
+
 .content h1 {
   margin-top: 3rem;
 }
@@ -323,12 +360,14 @@ body {
   height: 8.5%;
   width: 100%;
 }
+
 .home-bar .third {
   align-items: center;
   display: flex;
   justify-content: space-around;
   width: 33.3%;
 }
+
 .home-bar .third .back {
   border-bottom: 15px solid transparent;
   border-right: 20px solid #000;
@@ -339,6 +378,7 @@ body {
   position: relative;
   width: 0;
 }
+
 .home-bar .third .back:after {
   content: '';
   border-top: 8px solid transparent;
@@ -350,6 +390,7 @@ body {
   top: -8px;
   width: 0;
 }
+
 .home-bar .third .home {
   align-self: center;
   border: 3px solid #000;
@@ -358,6 +399,7 @@ body {
   height: 20px;
   width: 20px;
 }
+
 .home-bar .third .recent {
   align-self: center;
   border: 3px solid #000;
@@ -371,27 +413,3 @@ body {
 ====================================== */
 @import "partials/header";
 @import "partials/footer";
-
-/* =====================================
-        Responsiveness
-====================================== */
-
-/*  Small Screens (ex. Phones) and (min-width: 576px) */
-@media screen  and (max-width: 768px){
-  @import "responsive/small";
-}
-
-/*  Medium Screens (ex. Tablets)  */
-@media screen and (min-width: 768px) and (max-width: 992px){
-  @import "responsive/medium";
-}
-
-/*  Large Screens (ex. Desktops)  */
-@media screen and (min-width: 992px) and (max-width: 1200px){
-  @import "responsive/large";
-}
-
-/*  Extra Large Screens (ex. Large desktops)  */
-@media screen and (min-width: 1200px) {
-  @import "responsive/extra_large";
-}
