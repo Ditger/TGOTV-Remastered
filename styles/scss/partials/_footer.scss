@@ -1,0 +1,14 @@
+footer {
+  background-color: $blackColor;
+  text-align: center;
+  padding: 25px 0;
+  color: $whiteColor;
+
+  a {
+    color: $goldColor;
+
+    &:hover {
+      color: $goldColor
+    }
+  }
+}

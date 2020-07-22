@@ -5,9 +5,188 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Great Old TV</title>
+    <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+    <title>Welkom | The Great Old TV</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
 
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Gym Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#demo">Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <section id="intro">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>The Great Old TV</h1>
+                <h1>The Great Old Anywhere, Anytime</h1>
+                <p>The Great Old TV comes with tons of features to take your football experience to the next level!</p>
+            </div>
+
+            <div class="col-md-6">
+                <div id="iphone-top">
+                    <div class="iphone-section1">
+                        <div class="iphone-top">
+                            <span class="camera"></span>
+                            <span class="sensor"></span>
+                            <span class="speaker"></span>
+                        </div>
+                        <div class="top-bar"></div>
+                        <div class="iphone-screen">
+                            <iframe width="380" height="672" src="https://xd.adobe.com/embed/6f0f1317-30dd-4c8a-b780-176d3d1c8f94" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="buttons">
+                            <span class="on-off"></span>
+                            <span class="sleep"></span>
+                            <span class="up"></span>
+                            <span class="down"></span>
+                        </div>
+                        <div class="bottom-bar"></div>
+                        <div class="iphone-bottom">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="features" class="background">
+        <div class="container">
+            <div class="features-helper">
+                <h1>One App, Unlimited Entertainment</h1>
+                <ul class="feature_list">
+                    <li>Order tickets</li>
+                    <li>Watch anywhere</li>
+                    <li>Follow up the ranking</li>
+                </ul>
+                <ul class="feature_list">
+                    <li>Rewatch your favorite match</li>
+                    <li>Watch the highlight</li>
+                    <li>And so much more!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                        <h1>One App, Multiple Devices</h1>
+                        <div id="btn-container">
+                            <div class="btn btn-iphone">iOS</div>
+                            <div class="btn btn-android">Android</div>
+                            <div class="btn btn-download">Download</div>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="phone-container iphone-container">
+                        <div class="iphone">
+                            <div class="iphone-top">
+                                <span class="camera"></span>
+                                <span class="sensor"></span>
+                                <span class="speaker"></span>
+                            </div>
+                            <div class="top-bar"></div>
+                            <div class="iphone-screen">
+                                <iframe width="380" height="672" src="https://xd.adobe.com/embed/6f0f1317-30dd-4c8a-b780-176d3d1c8f94" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="buttons">
+                                <span class="on-off"></span>
+                                <span class="sleep"></span>
+                                <span class="up"></span>
+                                <span class="down"></span>
+                            </div>
+                            <div class="bottom-bar"></div>
+                            <div class="iphone-bottom">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phone-container">
+                        <div class="android-phone">
+                            <div class="top-bar"></div>
+                            <div class="sleep"></div>
+                            <div class="volume"></div>
+                            <div class="camera-speaker"></div>
+                            <div class="screen">
+                                <div class="content">
+                                    <iframe width="320" height="570" src="https://xd.adobe.com/embed/6f0f1317-30dd-4c8a-b780-176d3d1c8f94" frameborder="0" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+                            <div class="microphone"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contact" class="background">
+        <div class="container text-center">
+
+                <div class="col-md-6">
+                    <h2>Send us a message</h2>
+                    <form id="contact-form" class="form" action="#" method="POST" role="form">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <a href="" class="btn btn-custom">Send</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-content">
+            &copy; 2017 The Great Old TV | Powered by <a href="https://ditgerdewolf.be">DitgerDW</a>
+        </div>
+    </footer>
 </body>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery-migrate.min.js"></script>
+<script src="https://kit.fontawesome.com/ae49019fd6.js" crossorigin="anonymous"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/script.js"></script>
 </html>

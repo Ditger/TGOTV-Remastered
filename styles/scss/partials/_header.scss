@@ -1,0 +1,16 @@
+.navbar {
+  background: $redColor;
+}
+
+.nav-link {
+  color: $whiteColor;
+
+  &:hover {
+    color: $goldColor;
+  }
+}
+
+.navbar-brand img{
+  width: 150px;
+}
+
